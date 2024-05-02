@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "labs.h"
 
 int number_of_lab;
@@ -32,7 +33,7 @@ int main(){
         printf("This laboratory work is not found");
     }
     
-    getchar();
+    system("pause");
     return 0;
 }
 
